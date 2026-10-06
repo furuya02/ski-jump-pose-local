@@ -1,0 +1,27 @@
+# 依存
+node_modules/
+.pnpm-store/
+__pycache__/
+*.py[cod]
+.venv/
+
+# ビルド成果物
+frontend/dist/
+*.tsbuildinfo
+
+# 解析データ（元動画・pose.json・playback.mp4）
+data/
+
+# 動画
+*.mp4
+*.mov
+*.avi
+*.MOV
+*.MP4
+
+# モデル（初回に自動ダウンロード）
+*.pt
+
+# 作業用
+tmp/
+.DS_Store

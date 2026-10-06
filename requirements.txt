@@ -1,0 +1,7 @@
+# ローカルサーバ・推論（Python 3.10 以上）
+# ffmpeg / ffprobe は別途インストールしておく（brew install ffmpeg）
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+ultralytics>=8.3
+numpy
